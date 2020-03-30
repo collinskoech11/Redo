@@ -1,5 +1,5 @@
 body {
-  background-image: url("file:///home/collins/Documents/CokoBox/img/bg.jpg"); 
+  background-image: url("file:///home/collins/Documents/www.CokoBox.com/img/bg.jpg"); 
   background-color: #cccccc; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -17,7 +17,7 @@ body {
 	color:black;
 }
 .email .UsrName{
-	color:rgb(102,178,255,0.5);
+	color:rgb(102,178,255,0.5)
 }
 .Password{
 	color: rgb(102,178,255,0.5);
@@ -34,6 +34,17 @@ h1 {
 nav {
 	color:grey;
 	background: rgba(128,128, 128, 0.3)
+}
+@keyframes example {
+   0%  {background-color:rgb(100,100,128,0.3);}
+  25%  {background-color: rgb(100,0,128,0.3);}
+  50%  {background-color: rgb(150,70,255,0.3);}
+  100% {background-color:  rgb(100,150,255,0.3);}
+}
+
+.navbar{
+    background: rgba(100,100,128,0.3)
+   
 }
 .Form{
 	align-content: center;
@@ -123,12 +134,7 @@ align-content:right;
 .container{
   width:100%;
 }
-@keyframes example {
-   0%  {background-color:rgb(100,100,128,0.3);}
-  25%  {background-color: rgb(100,0,128,0.3);}
-  50%  {background-color: rgb(150,70,255,0.3);}
-  100% {background-color:  rgb(100,150,255,0.3);}
-}
+
 
 .loginForm{
   background-color: rgb(100,100,128,0.4);
@@ -137,4 +143,21 @@ align-content:right;
   height: 100%;
   animation-name: example;
   animation-duration: 5s;
+}
+.bgl{
+  background-image: url(file:///home/collins/Downloads/snow.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  width:25%;
+  height: 75%;
+}
+h4,h2{
+  color: dodgerblue;
+}
+
+.container-fluid{
+  padding: 1em 1em;
+}
+.btn{
+  color: gray;
 }
